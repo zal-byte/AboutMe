@@ -41,6 +41,21 @@
 	</style>
 </head>
 <body>
+		<header class="p-2 mb-5">
+			<nav class="navbar navbar-expand-lg fixed-top p-3 bg-light">
+				<a class="navbar-brand" href="#">About Me</a>
+				<button type="button" role="button" class="navbar-toggler" data-target="#mainNav" data-toggle="collapse" ariahaspopup="true" aria-expanded="false" aria-label="Toggle Navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse" id="mainNav">
+					<div class="navbar-nav mr-auto">
+						<a href="#" class="nav-item nav-link active">Home</a>
+						<a href="#" class="nav-item nav-link">Help Me</a>
+						<a href="#" class="nav-item nav-link">Option</a>
+					</div>
+				</div>
+			</nav>
+		</header>
 <!-- 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -65,8 +80,8 @@
 		</div>
 	</div> -->
 
-	<div class="jumbotron text-center">
-		<img src="http://192.168.43.15/priv/crack/zalbyte/zalbyte/amatsuka_uto/png/chibi_uto.png" class="rounded-circle img-responsive" style="height: 10em;">
+	<div class="jumbotron text-center" style="margin-top:5em;" >
+		<img src="https://cdn.myanimelist.net/images/characters/12/284475.webp" class="rounded-circle img-responsive" style="height: 10em; width:10em;">
 		<h1>Rizal Solehudin</h1>
 		<p>Student | Mobile Application Developer </p>
 	</div>
@@ -125,7 +140,7 @@
 					<a href="#" class="thumbnail">
 						<div class="card border-0 shadow">
 							<div class="card-body">
-								<img src="http://192.168.43.15/priv/crack/zalbyte/zalbyte/amatsuka_uto/png/chibi_uto.png" class="forto-img">
+								<img src="https://raw.githubusercontent.com/zal-byte/AmatsukaUto/master/png/amatsuka1.png" class="forto-img">
 							</div>
 						</div>
 					</a>
@@ -134,7 +149,7 @@
 					<a href="#" class="thumbnail">
 						<div class="card border-0 shadow">
 							<div class="card-body">
-								<img src="http://192.168.43.15/priv/crack/zalbyte/zalbyte/amatsuka_uto/png/chibi_uto.png" class="forto-img">
+								<img src="https://raw.githubusercontent.com/zal-byte/AmatsukaUto/master/png/chibi_uto.png" class="forto-img">
 							</div>
 						</div>
 					</a>
@@ -143,7 +158,7 @@
 					<a href="#" class="thumbnail">
 						<div class="card border-0 shadow">
 							<div class="card-body">
-								<img src="http://192.168.43.15/priv/crack/zalbyte/zalbyte/amatsuka_uto/png/chibi_uto.png" class="forto-img">
+								<img src="https://raw.githubusercontent.com/zal-byte/AmatsukaUto/master/png/gg_men.png" class="forto-img">
 							</div>
 						</div>
 					</a>
@@ -155,7 +170,7 @@
 	<section class="section sky" id="contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12 mt-5">
 					<h3 class="text-center"> Contact Me </h3>
 					<hr>
 				</div>
